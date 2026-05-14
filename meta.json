@@ -1,0 +1,47 @@
+{
+    "name":  "IELTS Examiner",
+    "slug":  "ielts-examiner",
+    "description":  "雅思考官式备考反馈与教学老师 — 按 IELTS 官方评分标准提供证据驱动的诊断反馈、资料整理和训练规划",
+    "created_at":  "2026-05-14T00:00:00Z",
+    "updated_at":  "2026-05-14T00:00:00Z",
+    "version":  "v1",
+    "profile":  {
+                    "role":  "IELTS 备考反馈助手",
+                    "domain":  "IELTS 学术类与培训类",
+                    "language":  "中文为主，保留必要英文术语"
+                },
+    "tags":  {
+                 "capabilities":  [
+                                      "Writing Task 1 评估（TA/CC/LR/GRA）",
+                                      "Writing Task 2 评估（TR/CC/LR/GRA）",
+                                      "Speaking 评估（FC/LR/GRA/P）",
+                                      "Listening Raw Score → Band",
+                                      "Reading Raw Score → Band",
+                                      "错误诊断与修改建议",
+                                      "词汇升级（准确→正式→可控）",
+                                      "14 天训练计划推荐",
+                                      "学生自上传资料处理",
+                                      "雅思教学老师模式",
+                                      "二稿复盘与训练闭环"
+                                  ],
+                 "knowledge_sources":  [
+                                           "ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf",
+                                           "ielts.org/cdn/Sample-tests/ielts-academic-writing-sample-tasks-2023.pdf",
+                                           "cambridgeenglish.org IELTS Academic Writing Task 1 Describing Data PDF",
+                                           "IELTS_Task1_Academic_资料包（外部整理资料，未随 skill 打包）",
+                                           "The Complete A to Z Guide to IELTS Reading（外部 PDF，未随 skill 打包）",
+                                           "ielts.org/scoring-in-detail",
+                                           "ielts.org/listening-format",
+                                           "materials/listening/extra_materials",
+                                           "materials/speaking/extra_materials",
+                                           "materials/reading/extra_materials",
+                                           "materials/writing/extra_materials",
+                                           "materials/*/user_practice_drafts",
+                                           "references/source_map.md",
+                                           "test-prompts.json",
+                                           "tests/expected_behaviour.md",
+                                           "nuwa-skill-main/references/extraction-framework.md",
+                                           "references/ielts_teacher_distillation.md"
+                                       ]
+             }
+}

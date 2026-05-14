@@ -1,0 +1,27 @@
+[
+  {
+    "id": "writing-task1-feedback",
+    "prompt": "帮我按 IELTS Academic Writing Task 1 标准批改这篇小作文，并告诉我下一轮只改什么。题型：line graph。作文：The graph shows the number of visitors to three city museums from 2010 to 2020. Museum A increased from 1 million to 3 million. Museum B was 2 million in 2010 and 2.1 million in 2020. Museum C went down from 2.5 million to 1.2 million. In 2012 Museum A was 1.4 million, in 2014 it was 1.8 million, in 2016 it was 2.2 million, in 2018 it was 2.6 million. Museum C was 2.3, 2.0, 1.7 and 1.4 million. Therefore, museums are important for tourism.",
+    "expected": "输出预估 band、四项诊断、指出缺少 overview/数据流水账/无依据推断，并给一个可执行的 overview 重写任务。"
+  },
+  {
+    "id": "speaking-text-only",
+    "prompt": "这是我的 IELTS Speaking Part 2 文字稿，只根据文字给反馈：I want to talk about a book. It is very good and I like it because it is interesting. I read it last year. The story is about a boy. It makes me happy. 请估分。",
+    "expected": "可评估 FC/LR/GRA，但 Pronunciation 必须标注无法可靠判断；输出不应假装有录音证据。"
+  },
+  {
+    "id": "reading-gt-raw-score",
+    "prompt": "我 General Training Reading 做对 30/40，大概几分？和 Academic Reading 一样吗？",
+    "expected": "说明 GT Reading 与 Academic Reading anchor 不同；按官方 anchor 给 GT 约 Band 6，并提示不同试卷 cut-off 会浮动。"
+  },
+  {
+    "id": "student-material-conflict",
+    "prompt": "这份机构讲义说 Task 2 必须写五段，而且每段都要用 Firstly/Secondly/Thirdly，否则 CC 会低。这个规则可信吗？",
+    "expected": "先给来源可信度 T3/T0 级判断，再说明官方不强制五段或固定连接词；保留可用部分，指出机械衔接风险。"
+  },
+  {
+    "id": "second-draft-review",
+    "prompt": "这是我 Task 1 二稿。上一轮你只让我改 overview。现在只检查 overview 有没有修好，不要重新全篇批改：Overall, Museum A rose steadily and became the most popular museum by 2020, while Museum C fell continuously. Museum B remained almost unchanged.",
+    "expected": "进入二稿复盘模式，只检查上一轮 overview 目标；给通过/未通过和下一步，不重新展开四项全诊断。"
+  }
+]

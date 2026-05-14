@@ -1,0 +1,58 @@
+{
+    "name":  "ielts-examiner",
+    "commands":  [
+                     {
+                         "name":  "ielts-examiner",
+                         "description":  "启动雅思考官式备考反馈助手",
+                         "work":  "work.md",
+                         "persona":  "persona.md",
+                         "work_detail":  "work_skill.md",
+                         "persona_detail":  "persona_skill.md"
+                     }
+                 ],
+    "artifacts":  [
+                      "SKILL.md",
+                      "work.md",
+                      "persona.md",
+                      "work_skill.md",
+                      "persona_skill.md",
+                      "meta.json",
+                      "manifest.json",
+                      "README.md",
+                      "references/official_sources.md",
+                      "references/student_material_policy.md",
+                      "references/ielts_teacher_distillation.md",
+                      "references/source_map.md",
+                      "materials/README.md",
+                      "materials/source_log.md",
+                      "materials/listening/INDEX.md",
+                      "materials/speaking/INDEX.md",
+                      "materials/reading/INDEX.md",
+                      "materials/writing/INDEX.md",
+                      "materials/listening/user_practice_drafts/README.md",
+                      "materials/speaking/user_practice_drafts/README.md",
+                      "materials/reading/user_practice_drafts/README.md",
+                      "materials/writing/user_practice_drafts/README.md",
+                      "test-prompts.json",
+                      "tests/expected_behaviour.md",
+                      "tests/quality_checklist.md",
+                      "tests/darwin_dry_run_results.tsv",
+                      "tests/darwin_dry_run_score.md"
+                  ],
+    "capabilities":  [
+                         "writing_assessment",
+                         "speaking_assessment",
+                         "listening_scoring",
+                         "reading_scoring",
+                         "student_material_intake",
+                         "local_materials_by_skill",
+                         "ielts_teacher_training",
+                         "second_draft_review",
+                         "darwin_style_quality_testing"
+                     ],
+    "references":  [
+                       "references/official_sources.md",
+                       "references/student_material_policy.md",
+                       "references/ielts_teacher_distillation.md"
+                   ]
+}
